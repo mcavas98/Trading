@@ -5,7 +5,7 @@ from Technical_Indicators import average_true_range
 from Technical_Indicators import relative_strength_index
 from Technical_Indicators import bollinger_bands
 from Technical_Indicators import macd,chandelier_exit
-ticker = 'MGROS.IS-3'
+ticker = 'ECZYT.IS'
 df = pd.read_csv('../stockdata/'+ticker+'.csv')
 
 df['Date'] = pd.to_datetime(df['Date'], format='%Y-%m-%d')
